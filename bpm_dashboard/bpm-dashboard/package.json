@@ -1,11 +1,12 @@
 {
+  "homepage": "https://salonijain28.github.io/bpm_dashboard",
   "name": "bpm-dashboard",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://salonijain28.github.io/bpm_dashboard",
+       
   "scripts": {
     "dev": "next dev --turbopack",
-    "predeploy": "next build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d out",
     "build": "next build",
     "start": "next start",
